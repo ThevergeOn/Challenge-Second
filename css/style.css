@@ -1,90 +1,96 @@
-html {
-    width: 100%;
-    padding: 0;
-    margin: 0 auto;
-}
 body {
-    margin-top:80px ;
-    background-color:  hsl(0, 0%, 95%);
-    
+  background-color: hsl(0, 0%, 95%);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 img {
-    width: 60px;
-    margin-bottom: 20px; 
+  width: 60px;
+  margin-bottom: 20px;
 }
-p{
-    font-size: 14px;
-    font-family: 'Lexend Deca', sans-serif;
-    margin-top: 20px;
-    margin-bottom: 80px;
+p {
+  font-size: 14px;
+  font-family: "Lexend Deca", sans-serif;
+  margin-top: 20px;
+  margin-bottom: 80px;
+  line-height: 25px;
 }
-
+.project {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
 .container {
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    width: 800px;
-    margin: auto;
-    padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  width: 800px;
+  padding: 0;
 }
 .card {
-    display: flex;
-    flex-direction: column;
-    padding: 40px;
-    border-radius: 0;
-    color:hsla(0, 0%, 100%, 0.75);
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  border-radius: 0;
+  color: hsla(0, 0%, 100%, 0.75);
 }
-.header{
-    font-family: 'Big Shoulders Display', cursive;
-    font-size: 32px;
+.header {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 32px;
 }
 #sedan {
-    background-color: hsl(31, 77%, 52%);
-    border-radius: 8px 0 0px 8px;
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 8px 0 0px 8px;
 }
 
 #suv {
-background-color: hsl(184, 100%, 22%);
+  background-color: hsl(184, 100%, 22%);
 }
 
 #luxury {
-    background-color: hsl(179, 100%, 13%);
-    border-radius: 0px 8px 8px 0;
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0px 8px 8px 0;
 }
 .btn {
-    padding: 10px;
-    font-family: 'Lexend', sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    border:hsla(0, 0%, 100%, 0.75) solid 2px;
-    width: 140px;
-    border-radius: 25px;
-    mix-blend-mode: screen;
+  padding: 10px;
+  font-family: "Lexend", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  border: hsla(0, 0%, 100%, 0.75) solid 2px;
+  width: 140px;
+  height: 50px;
+  border-radius: 25px;
+  mix-blend-mode: screen;
 }
 
 .btn:hover {
-    border:hsla(0, 0%, 100%, 0.75) solid 2px;
-    color: hsla(0, 0%, 100%, 0.75);
-    background-color: transparent;
-    
+  border: hsla(0, 0%, 100%, 0.75) solid 2px;
+  color: hsla(0, 0%, 100%, 0.75);
+  background-color: transparent;
 }
 
 /* Attribution */
 #attribution {
-    display: flex;
-    justify-content: center;
-    margin: 10px 0;
- }
- 
- #attribution p {
-    font-size: 15px;
-    color: hsl(184, 100%, 22%);
- }
- 
- #attribution a {
-    text-decoration: none;
-    color: hsl(31, 77%, 52%);
- }
- #attribution a:hover{
-    text-decoration: underline;
- }
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+#attribution p {
+  font-size: 15px;
+  color: hsl(184, 100%, 22%);
+  margin-bottom: 0px;
+}
+
+#attribution a {
+  text-decoration: none;
+  color: hsl(31, 77%, 52%);
+}
+#attribution a:hover {
+  text-decoration: underline;
+}
